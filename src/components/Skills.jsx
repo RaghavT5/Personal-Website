@@ -34,37 +34,37 @@ const Skills = () => {
       id: 4,
       src: flutterIcon,
       title: "Flutter",
-      style: "shadow-orange-500",
+      style: "shadow-blue-900",
     },
     {
       id: 5,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-cyan-500",
     },
     {
       id: 6,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-400",
+      style: "shadow-cyan-300",
     },
     {
       id: 7,
       src: python,
       title: "Python",
-      style: "shadow-white",
+      style: "shadow-yellow-300",
     },
     {
       id: 8,
       src: CppLogo,
       title: "C++",
-      style: "shadow-pink-400",
+      style: "shadow-blue-800",
     },
     {
       id: 9,
-      imgSrc: SQLLogo,
+      src: SQLLogo,
       title: "SQL",
-      style: "shadow-gray-400",
+      style: "shadow-blue-500",
     },
   ];
   return (
@@ -72,7 +72,7 @@ const Skills = () => {
       name="skills"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="pt-40 max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
