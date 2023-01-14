@@ -1,6 +1,5 @@
 import React from "react";
 import Avatar3 from "../assets/Avatar3.png";
-import avatar1 from "../assets/avatar1.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { useEffect, useState } from "react";

@@ -2,13 +2,13 @@ import React from "react";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import javascriptIcon from "../assets/javascriptIcon.png";
+import JavaScript from "../assets/JavaScript.png";
 import flutterIcon from "../assets/flutterIcon.png";
 import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import python from "../assets/python.png";
-import CppLogo from "../assets/python.png";
-import SQLLogo from "../assets/python.png";
+import CppLogo from "../assets/CppLogo.png";
+import SQLLogo from "../assets/SQLLogo.png";
 
 const Skills = () => {
   const technologies = [
@@ -26,7 +26,7 @@ const Skills = () => {
     },
     {
       id: 3,
-      src: javascriptIcon,
+      src: JavaScript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },

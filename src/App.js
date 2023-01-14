@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import MobileLinks from "./components/MobileLinks";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Contact />
       <SocialLinks />
+      {/* <MobileLinks /> */}
       <Footer />
     </div>
   );
