@@ -13,8 +13,8 @@ const titles = [
 ];
 
 const Home = () => {
-  const [] = useState(0);
-  const [] = useState(titles[0]);
+  const [titleIndex, setTitleIndex] = useState(0);
+  const [currentTitle, setCurrentTitle] = useState(titles[0]);
 
   const typewriterRef = useRef();
   useEffect(() => {
@@ -30,6 +30,14 @@ const Home = () => {
     });
     typewriterRef.current.start();
   }, []);
+
+  useEffect(() => {
+    setCurrentTitle(titles[titleIndex]);
+    const interval = setInterval(() => {
+      setTitleIndex((titleIndex + 1) % titles.length);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [titleIndex]);
 
   return (
     <div
