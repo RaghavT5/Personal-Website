@@ -5,12 +5,7 @@ import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect/dist/core";
 
-const titles = [
-  "Flutter Developer",
-  "Frontend Developer",
-  "Web Enthusiast",
-  "Python Programmer",
-];
+const titles = ["Flutter Developer", "Web Enthusiast", "Python Programmer"];
 
 const Home = () => {
   const [titleIndex, setTitleIndex] = useState(0);
@@ -30,14 +25,6 @@ const Home = () => {
     });
     typewriterRef.current.start();
   }, []);
-
-  useEffect(() => {
-    setCurrentTitle(titles[titleIndex]);
-    const interval = setInterval(() => {
-      setTitleIndex((titleIndex + 1) % titles.length);
-    }, 1000);
-    return () => clearInterval(interval);
-  }, [titleIndex]);
 
   return (
     <div
