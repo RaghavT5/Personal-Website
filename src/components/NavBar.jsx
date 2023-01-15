@@ -11,26 +11,31 @@ const NavBar = () => {
       id: 1,
       title: "home",
       offset: 0,
+      offsetMobile: 0,
     },
     {
       id: 2,
       title: "about",
       offset: -90,
+      offsetMobile: -255,
     },
     {
       id: 3,
       title: "projects",
       offset: 0,
+      offsetMobile: 150,
     },
     {
       id: 4,
       title: "skills",
       offset: -55,
+      offsetMobile: -50,
     },
     {
       id: 5,
       title: "contact",
       offset: 90,
+      offsetMobile: 0,
     },
   ];
   return (
@@ -68,6 +73,7 @@ const NavBar = () => {
                 onClick={() => setNav(!nav)}
                 to={link.title}
                 smooth
+                offset={link.offsetMobile}
                 duration={700}
               >
                 {link.title}

@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 sm:pt-32"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -54,7 +54,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="pl-4 ml-4">
+        <div className="pl-4 ml-4 sm: pb-40 lg:pb-0">
           <img
             src={Avatar3}
             className="rounded-2xl mx-auto w-56 h-56 md:w-full"
