@@ -10,22 +10,27 @@ const NavBar = () => {
     {
       id: 1,
       title: "home",
+      offset: 0,
     },
     {
       id: 2,
       title: "about",
+      offset: -90,
     },
     {
       id: 3,
       title: "projects",
+      offset: 0,
     },
     {
       id: 4,
       title: "skills",
+      offset: -55,
     },
     {
       id: 5,
       title: "contact",
+      offset: 90,
     },
   ];
   return (
@@ -39,7 +44,7 @@ const NavBar = () => {
             key={link.id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <Link to={link.title} smooth duration={700}>
+            <Link to={link.title} smooth offset={link.offset} duration={700}>
               {link.title}
             </Link>
           </li>
