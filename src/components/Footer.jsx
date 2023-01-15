@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,14 +7,8 @@ const Footer = () => {
         <div className="flex flex-col justify-center items-center mx-auto pt-4 sm:w-full">
           <div className="whitespace-no-wrap overflow-x-auto">
             <p>
-              Made with ❤ by Raghav
-              {/* <a href="https://github.com/RaghavT5">
-                <FaGithub size={15} />
-              </a>
-              <a href="https://www.linkedin.com/in/raghav-tuli-28232617b/">
-                <FaLinkedin size={15} />
-              </a> */}
-              . Copyright © {new Date().getFullYear()}. All Rights Reserved.
+              Made with ❤ by Raghav . Copyright © {new Date().getFullYear()}.
+              All Rights Reserved.
             </p>
           </div>
         </div>
