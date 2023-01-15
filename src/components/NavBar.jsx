@@ -17,25 +17,25 @@ const NavBar = () => {
       id: 2,
       title: "about",
       offset: -90,
-      offsetMobile: -255,
+      offsetMobile: -205,
     },
     {
       id: 3,
       title: "projects",
       offset: 0,
-      offsetMobile: 150,
+      offsetMobile: 130,
     },
     {
       id: 4,
       title: "skills",
       offset: -55,
-      offsetMobile: -50,
+      offsetMobile: 85,
     },
     {
       id: 5,
       title: "contact",
       offset: 90,
-      offsetMobile: 0,
+      offsetMobile: 330,
     },
   ];
   return (
