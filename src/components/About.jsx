@@ -30,7 +30,7 @@ const About = () => {
           </em>
           , &{" "}
           <em>
-            <strong>Chat Central</strong>, my very own messaging app{" "}
+            <strong>Chat Central</strong>, my very own messaging app
           </em>
           , to{" "}
           <em>
@@ -42,18 +42,21 @@ const About = () => {
         <br />
         <p className="text-xl">
           I’m an ambivert and a naturally curious person so when I am not
-          coding, I am usually Googling random stuff, reading up legal articles,
-          familiarizing myself with the important ongoing legal battles and
-          court cases (yeah, you read right, I’ve varied non-tech interests too,
-          go figure) and of course, binge-watching shows and movies on Netflix,
-          Prime Video, etc.
+          coding, I am usually Googling random stuff, thinking about new
+          projects and searching for new things to learn.
+          <br />I also like reading up legal articles, familiarizing myself with
+          the important ongoing legal battles and court cases (yeah, you read
+          that right, I’ve varied non-tech interests too, go figure), and of
+          course, binge-watching shows and movies on Netflix, Prime Video, etc.
         </p>
         <br />
         <p className="text-xl">
           So, take a look around, stay awhile and{" "}
-          <Link to="contact" smooth={true} offset={90} duration={700}>
-            let's connect!
-          </Link>{" "}
+          <b>
+            <Link to="contact" smooth={true} offset={330} duration={700}>
+              let's connect!
+            </Link>
+          </b>{" "}
           I'm always open to chat about the latest tech trends, grab a coffee,
           or just shoot the breeze.
         </p>
