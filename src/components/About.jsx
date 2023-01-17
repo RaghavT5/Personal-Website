@@ -53,7 +53,7 @@ const About = () => {
         <p className="text-xl">
           So, take a look around, stay awhile and{" "}
           <b>
-            <Link to="contact" smooth={true} offset={330} duration={700}>
+            <Link to="contact" smooth={true} offset={230} duration={700}>
               let's connect!
             </Link>
           </b>{" "}

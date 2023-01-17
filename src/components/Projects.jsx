@@ -1,8 +1,8 @@
 import React from "react";
 import Fridge2Fork1 from "../assets/projects/Fridge2Fork1.jpg";
-
 import ChatCentral from "../assets/projects/ChatCentral.jpg";
 import BMIBuddy from "../assets/projects/BMIBuddy.jpg";
+import Destini from "../assets/projects/Destini.jpg";
 
 const Projects = () => {
   const projects = [
@@ -24,12 +24,18 @@ const Projects = () => {
       demoLink: "",
       codeLink: "https://github.com/RaghavT5/BMI-Buddy",
     },
+    {
+      id: 4,
+      src: Destini,
+      demoLink: "",
+      codeLink: "https://github.com/RaghavT5/Destini--Choose_Your_Own_Odyssey",
+    },
   ];
 
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen sm: pt-56 md:pt-0"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen sm: pt-56 md:pt-0 lg:pt-64"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

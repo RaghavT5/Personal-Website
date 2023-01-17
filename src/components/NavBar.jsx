@@ -22,13 +22,13 @@ const NavBar = () => {
     {
       id: 3,
       title: "projects",
-      offset: 0,
+      offset: -30,
       offsetMobile: 130,
     },
     {
       id: 4,
       title: "skills",
-      offset: -140,
+      offset: 100,
       offsetMobile: 85,
     },
     {
@@ -40,7 +40,7 @@ const NavBar = () => {
     {
       id: 6,
       title: "contact",
-      offset: 70,
+      offset: 220,
       offsetMobile: 330,
     },
   ];
