@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect/dist/core";
 
-const titles = ["Flutter Developer.", "Web Enthusiast.", "Python Programmer."];
+const titles = ["Developer.", "Coder.", "Programmer.", "Web Enthusiast."];
 
 const Home = () => {
   const [titleIndex, setTitleIndex] = useState(0);
