@@ -9,25 +9,25 @@ const Projects = () => {
     {
       id: 1,
       src: Fridge2Fork1,
-      demoLink: "",
+      demoLink: "https://github.com/RaghavT5/Fridge2Fork",
       codeLink: "https://github.com/RaghavT5/Fridge2Fork",
     },
     {
       id: 2,
       src: ChatCentral,
-      demoLink: "",
+      demoLink: "https://github.com/RaghavT5/Chat-Central",
       codeLink: "https://github.com/RaghavT5/Chat-Central",
     },
     {
       id: 3,
       src: BMIBuddy,
-      demoLink: "",
+      demoLink: "https://github.com/RaghavT5/BMI-Buddy",
       codeLink: "https://github.com/RaghavT5/BMI-Buddy",
     },
     {
       id: 4,
       src: Destini,
-      demoLink: "",
+      demoLink: "https://github.com/RaghavT5/Destini--Choose_Your_Own_Odyssey",
       codeLink: "https://github.com/RaghavT5/Destini--Choose_Your_Own_Odyssey",
     },
   ];
