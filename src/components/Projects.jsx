@@ -9,8 +9,8 @@ const Projects = () => {
     {
       id: 1,
       src: Fridge2Fork1,
-      demoLink: "https://github.com/RaghavT5/Fridge2Fork",
-      codeLink: "https://github.com/RaghavT5/Fridge2Fork",
+      demoLink: "https://fridge2fork.netlify.app/",
+      codeLink: "https://github.com/RaghavT5/Fridge2Fork-react",
     },
     {
       id: 2,
