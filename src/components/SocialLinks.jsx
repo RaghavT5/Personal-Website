@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://bit.ly/Raghav_Tuli_Resume",
+      href: "https://bit.ly/Raghav-Tuli-Resume",
       style: "rounded-br-md",
     },
   ];

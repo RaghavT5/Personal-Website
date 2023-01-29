@@ -79,7 +79,7 @@ const NavBar = () => {
               className="px-4 capitalize cursor-pointer py-6 text-4xl"
             >
               {link.id === 5 ? (
-                <a href={"https://bit.ly/Raghav_Tuli_Resume"} target="_blank">
+                <a href={"https://bit.ly/Raghav-Tuli-Resume"} target="_blank">
                   {link.title}
                 </a>
               ) : (
